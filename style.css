@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(214, 214, 214);
+}
+
+.container-fluid{
+    margin-top: 90px;
+    max-width: 400px;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 5px 5px 10px #6ba9a9, -5px -5px 10px #ffffff;
+}
+
+#result{
+    height: 80px;
+}
+
+
+button{
+    margin-right: 3%;
+    box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
+}
+
+button:active{
+    background-color: blue;
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+#niyi{
+    font-size: 20px;
+    color: gray;
+}
