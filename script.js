@@ -5,16 +5,19 @@ function userInput(input){
 }
 
 function operator(input){
+    if(input=="x"){
+        input = "*";
+    }
     display.value += " " + input + " ";
 }
 
 function calcResult(){
     display.value = eval(display.value);
     if(display.value == Number.POSITIVE_INFINITY){
-        display.value = "naN - You cannot divide by zero; +Infinity";
+        display.value = "You cannot divide by zero; +Infinity";
     }
     if(display.value == Number.NEGATIVE_INFINITY){
-        display.value = "naN - You cannot divide by zero; -Infinity";
+        display.value = "You cannot divide by zero; -Infinity";
     }
 }
 
